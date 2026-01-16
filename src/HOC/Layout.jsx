@@ -1,13 +1,14 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
-import Footer from '../footer/Footer'
+import Navbar from '../components/Navigation/Navbar'
+import Footer from '../components/Navigation/Footer'
 import { Outlet } from 'react-router-dom'
 
 function Layout() {
   return (
     <div>
-        <Navbar/>
-        <main>
+      <div className=" fixed top-0 z-50 w-full"> <Navbar /></div>
+       
+        <main className=''>
             <Outlet/>
             </main>
             <Footer/>
