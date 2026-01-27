@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import resort1 from "../../assets/Resort1.webp";
-import resort2 from "../../assets/resort2.webp";
-import pool from "../../assets/pool.webp";
+import resort1 from "../../../assets/Resort1.webp";
+import resort2 from "../../../assets/resort2.webp";
+import pool from "../../../assets/pool.webp";
 
 import { MdBrunchDining, MdOutlineBedroomChild } from "react-icons/md";
 import { GiChestnutLeaf, GiPartyPopper } from "react-icons/gi";
