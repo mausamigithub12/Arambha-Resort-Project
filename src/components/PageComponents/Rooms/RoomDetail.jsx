@@ -10,8 +10,6 @@ import {
 import { FaLongArrowAltRight } from "react-icons/fa";
 import RecommendedRoom from "./RecommendedRoom";
 import { BiLeftArrowAlt } from "react-icons/bi";
-
-
 const roomFacilities = [
   "Air Conditioning / Heater",
   "Comfortable Bedding",
@@ -47,8 +45,7 @@ function RoomDetail() {
 
   return (
      
-
-      <div className="bg-slate-900 mt-14">
+     <div className="bg-slate-900 mt-14">
         <div className="px-6 mx-5  pt-14 space-y-6">
           <div className="space-y-4">
             <div className=" flex  justify-between items-center">
@@ -63,7 +60,7 @@ function RoomDetail() {
             <p className="text-red-500 tracking-wide">{room.price}</p>
             
 </div>
-            </div>
+ </div>
 
             <div className=" flex flex-row gap-5">
              <Link
